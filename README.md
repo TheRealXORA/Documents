@@ -1,2 +1,4 @@
 # Documents
-`lua`
+
+```lua
+print("hello world")
