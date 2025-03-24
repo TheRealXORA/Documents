@@ -48,4 +48,10 @@ print(my_variable)  -- Output: 1
 
 --// To access the global variable, use getgenv().my_variable \\--
 print(getgenv().my_variable)  -- Output: 2
+
+--// Example using [""] to access global variables \\--
+getgenv()["global variable"] = "Foo!"
+
+--// Accessing the global variable using [""] syntax \\--
+print(getgenv()["global variable"])  -- Output: Foo!
 ```
