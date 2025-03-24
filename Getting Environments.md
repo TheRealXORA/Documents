@@ -5,4 +5,4 @@ The functions provide access to specific environments.
 ```luau
 function getgenv(): { [string]: any }
 ```
-Returns a table representing the executor’s global environment. This allows you to create and access global variables, functions, and tables that persist across different scripts.
+Stands for “Get Global Environment.” It returns a table representing the executor’s custom global environment. This allows you to create and access global variables, functions, and tables that persist across different scripts.
