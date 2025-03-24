@@ -29,15 +29,15 @@ print(getgenv().greet("User"))  -- Output: Hello, User!
 
 --// Create a global table \\--
 getgenv().config = {
-    speed = 10,
+    speed = 16,
     jump_power = 50,
     fly = true
 }
 
 --// Access and modify table values \\--
-print(getgenv().config.speed)  -- Output: 10
-config.speed = 20
-print(getgenv().config.speed)  -- Output: 20
+print(getgenv().config.speed)  -- Output: 16
+config.speed = 32
+print(getgenv().config.speed)  -- Output: 32
 
 --// Example of local and global variable conflict \\--
 getgenv().my_variable = 2   -- Global variable
