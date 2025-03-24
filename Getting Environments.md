@@ -7,6 +7,8 @@ function getgenv(): { [string]: any }
 ```
 It stands for "Get Global Environment". It returns a table representing the executor’s custom global environment. This allows you to create and access global variables, functions, and tables that persist across different scripts.
 
+You can directly access global variables, functions and tables stored in getgenv() without needing to use getgenv().variableName. For example, if a variable is stored as getgenv().myVariable, you can access it directly by just using myVariable.
+
 ## Example usage for getgenv
 
 ```luau
@@ -33,6 +35,6 @@ getgenv().config = {
 
 --// Access and modify table values \\--
 print(getgenv().config.speed)  -- Output: 10
-getgenv().config.speed = 20
+config.speed = 20
 print(getgenv().config.speed)  -- Output: 20
 ```
