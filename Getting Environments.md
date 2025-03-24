@@ -43,9 +43,9 @@ print(getgenv().config.speed)  -- Output: 20
 getgenv().my_variable = 2   -- Global variable
 local my_variable = 1       -- Local variable
 
---//  If we just print myVariable, it will print the local value \\--
-print(my_variable)          -- Output: 1
+--//  If we just print my_variable, it will print the local value \\--
+print(my_variable)  -- Output: 1
 
---// To access the global variable, use getgenv().myVariable \\--
+--// To access the global variable, use getgenv().my_variable \\--
 print(getgenv().my_variable)  -- Output: 2
 ```
