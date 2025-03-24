@@ -60,4 +60,4 @@ print(getgenv()["global variable"])  -- Output: Foo!
 ```luau
 function getrenv(): { [string]: any }
 ```
-It stands for "Get Roblox Environment". It returns a table representing the roblox environment.
+It stands for "Get Roblox Environment". It returns a table representing the roblox environment. It can be used to access the global roblox functions that LocalScripts and ModuleScripts use.
