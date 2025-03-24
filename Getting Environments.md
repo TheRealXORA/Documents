@@ -55,3 +55,8 @@ getgenv()["global variable"] = "Foo!"
 --// Accessing the global variable using [""] syntax \\--
 print(getgenv()["global variable"])  -- Output: Foo!
 ```
+
+## getrenv
+```luau
+function getrenv(): { [string]: any }
+```
