@@ -1,5 +1,5 @@
 # Documents
 
-```lua
+```luau
 print("hello world")
 ```
