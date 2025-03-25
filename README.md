@@ -1,4 +1,4 @@
-# Executors API Documentation
+# Executors Api Documentation
 
 **Welcome!**
 
